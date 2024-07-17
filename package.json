@@ -2,13 +2,17 @@
   "name": "chai-aur-backed",
   "version": "1.0.0",
   "description": "a backend from lakshay like youtube",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript"
   ],
   "author": "Lakshay",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
